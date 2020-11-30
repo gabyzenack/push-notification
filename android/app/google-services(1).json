@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "724570817153",
+    "firebase_url": "https://concepto-ionic.firebaseio.com",
+    "project_id": "concepto-ionic",
+    "storage_bucket": "concepto-ionic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724570817153:android:9f88de98d36bd6a51b8380",
+        "android_client_info": {
+          "package_name": "io.ionic.concepto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724570817153-m0rn6oj9g067v80givjl6p07q262ts8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDo96_Da_CC3927jprdBAyknhrUP8-kozQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724570817153-m0rn6oj9g067v80givjl6p07q262ts8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
