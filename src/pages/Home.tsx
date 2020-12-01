@@ -18,7 +18,15 @@ export class Home extends React.Component {
 
   push() {
     // Register with Apple / Google to receive push via APNS/FCM
-    PushNotifications.register();
+    // PushNotifications.register();
+    PushNotifications.requestPermission().then((permission) => {
+      if (permission.granted) {
+        // Register with Apple / Google to receive push via APNS/FCM
+        PushNotifications.register();
+      } else {
+        // No permission for push granted
+      }
+    });
 
     // On succcess, we should be able to receive notifications
     PushNotifications.addListener('registration',
